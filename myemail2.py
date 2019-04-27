@@ -4,9 +4,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
 
-email_user = 'TreatDispenser305@gmail.com'
-email_password = 'Treats305'
-email_send = 'tlr.nichols@gmail.com'
+email_user = ''
+email_password = ''
+email_send = ''
 
 subject = 'Treat Time!'
 

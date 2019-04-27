@@ -74,23 +74,23 @@ while True:
 
 # The Pi will then notify the phone number entered in the "to" section with the
 # body message
-	account_sid = 'ACb9dab907e5aca735ea665f370251adb8'
-	auth_token = 'a1b4a34038512fe2569f0504710bf947'
+	account_sid = ''
+	auth_token = ''
 	client = Client(account_sid, auth_token)
         message = client.messages \
                 .create(
                      body="Your pet just got a treat!",
-                     from_='+15023736897',
-                     to='+15024925427'
+                     from_='',
+                     to=''
                  )
 
 # The message ID is then printed to the terminal
 	print(message.sid)
 
 # The sequence to send an email of the video begins below is the set accounts
-	email_user = 'TreatDispenser305@gmail.com'
-	email_password = 'Treats305'
-	email_send = 'tlr.nichols@gmail.com'
+	email_user = ''
+	email_password = ''
+	email_send = ''
 
 	subject = 'Treat Time!'
 
